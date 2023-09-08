@@ -1,0 +1,37 @@
+HELP.md
+.metadata/
+
+# Ignoring any .class files
+*.class
+
+# Log files
+*.log
+
+
+# Eclipse/SpringToolSuite-specific files and directories
+.classpath
+.project
+.settings/
+
+# Maven-specific files and directories
+target/
+.mvn/
+
+# Spring Boot application properties
+src/main/resources/application.properties
+
+# Spring Boot generated files
+*.jar
+*.war
+
+# Logs
+logs/
+*.log*
+*.swp
+*~
+
+# Temporary files
+*.tmp
+
+# Configuration files
+*.config
